@@ -11,10 +11,6 @@ pipeline {
     }
    
   
-        stage('Hello') {
-            steps {
-                sh 'node --version'
-            }
-        }
+      
      
 }
